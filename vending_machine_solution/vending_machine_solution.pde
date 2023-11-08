@@ -3,6 +3,7 @@
 //and their values won't change (be assigned new values)
 color GREEN = color(255, 0, 0);
 boolean thisOne;
+//this is a fun comment!
 color DARK_GREEN = color(0, 120, 50);
 color BLUE = color(42, 155, 245);
 color DARK_BLUE = color(2, 115, 205);
@@ -65,6 +66,9 @@ void setup() {
   //we're not going to instantiate the can objects till they're vended
 }
 
+void myNewFunction(){
+  rect(width/2, height/2, 10, 10);
+}
 
 void draw() {
   //draw the background
