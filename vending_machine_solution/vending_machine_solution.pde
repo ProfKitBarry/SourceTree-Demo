@@ -55,7 +55,7 @@ void setup() {
   //set the canvas and stroke weight
   size(1000, 1000);
   strokeWeight(5);
-
+ myNewFunction();
   //instantiate some button objects so we can use them
   greenButton = new Button(xPosition + 475, yPosition + 250, 100, 50, GREEN);
   blueButton = new Button(xPosition + xOffset + 475, yPosition + yOffset + 325, 100, 50, BLUE);
