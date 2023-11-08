@@ -66,10 +66,6 @@ void setup() {
   //we're not going to instantiate the can objects till they're vended
 }
 
-void myNewFunction(){
-  rect(width/2, height/2, 10, 10);
-}
-
 void draw() {
   //draw the background
   background(200, 225, 230); //the sky
